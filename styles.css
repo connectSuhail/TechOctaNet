@@ -1,0 +1,200 @@
+body {
+    background-image: url('./images/background.png');
+    /* background-color: #f9f9f9; Applying the menu section background color */
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #333;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: 5vh;
+}
+
+header {
+    background-color: hsl(180, 1%, 15%);
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: large;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    flex: 1;
+}
+
+#hero .hero-content {
+    max-width: 100%;
+    margin: auto;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 0 0 30px;
+}
+
+#hero .btn {
+    background-color:hsl(180, 1%, 15%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    
+    background-color: hsl(180, 1%, 15%);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#about {
+    display: flex;
+    padding: 50px 20px;
+    background-color: #f7f2f2;
+    text-align: center;
+}
+
+#about .container {
+    max-width: 650px;
+    margin: auto;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#contact {
+    padding: 50px 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff4a3a;
+}
+
+#menu {
+    background-color: #f7f2f2;
+    padding: 50px 50px;
+    text-align: center;
+    display: flex;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu .container {
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    
+}
+
+#menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.coffee-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-item {
+    flex: 1 1 calc(25% - 25%);
+    margin: 10px 10px;
+    box-sizing: content-box;
+}
+
+.coffee-item img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    padding: 10%;
+}
+
+.coffee-item h3 {
+    margin: 10px 0 5px;
+}
+
+.coffee-item p {
+    margin: 0;
+}
